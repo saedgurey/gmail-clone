@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Login.css"
 import { login } from "./features/userSlice";
-import { auth, provider } from "./config/firebase";
+import { auth, provider } from "../config/firebase";
 import { Button } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 const Login = () => {

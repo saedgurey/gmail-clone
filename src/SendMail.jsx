@@ -4,7 +4,7 @@ import { Button } from '@mui/material';
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { closeSendMessage } from "./features/mailSlice";
-import { db } from "./config/firebase";
+import { db } from "../config/firebase";
 import firebase from "firebase/compat/app"
 
 

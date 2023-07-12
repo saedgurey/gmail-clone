@@ -17,7 +17,7 @@ import PeopleIcon from '@mui/icons-material/People';
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import EmailRow from './EmailRow';
 import { useEffect, useState } from "react";
-import { db } from "./config/firebase";
+import { db } from "../config/firebase";
 
 
 

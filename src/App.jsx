@@ -12,7 +12,7 @@ import { selectSendMessageIsOpen } from "./features/mailSlice";
 import {login, selectUser } from './features/userSlice';
 import Login from './Login';
 import { useEffect } from 'react';
-import { auth } from './config/firebase';
+import { auth } from '../config/firebase.js';
 
 
 const App = () => {
